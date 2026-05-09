@@ -1,0 +1,16 @@
+data:
+  filepath:"data//raw//online_retail_II.csv"
+  encoding: "ISO-8859-1"
+  required_columns:
+    - "CustomerID"
+    -"InvoiceNo"
+    -"Quantity"
+    -"UnitPrice"
+    -"InvoiceDate"
+
+features:
+  rfm_columns:
+    -"recency"
+    -"frequency"
+    -"Monetary"
+  log_transform: true  # apply np.log1p to reduce skew 
