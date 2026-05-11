@@ -1,0 +1,14 @@
+2026-05-11 17:06:13 - src.logger - INFO - Logger initialised
+2026-05-11 17:06:13 - src.logger - INFO -   Level    : INFO
+2026-05-11 17:06:13 - src.logger - INFO -   Log file : C:\Desktop\Online retail UnsML k-mean analysis\logs/pipeline.log
+2026-05-11 17:06:13 - src.logger - INFO -   Terminal : colour enabled
+2026-05-11 17:06:13 - src.logger - INFO -   Rotation : 5MB × 3 backups
+2026-05-11 17:06:13 - src.logger - INFO - ============================================================
+2026-05-11 17:06:13 - root - INFO - Logger test started
+2026-05-11 17:06:13 - root - INFO - INFO — normal pipeline progress
+2026-05-11 17:06:13 - root - WARNING - WARNING — something unexpected
+2026-05-11 17:06:13 - root - ERROR - ERROR — something broke
+2026-05-11 17:06:13 - root - INFO -  STEP 1/3: Loading data
+2026-05-11 17:06:13 - root - INFO -  STEP 2/3: Training model
+2026-05-11 17:06:13 - root - INFO -  STEP 3/3: Saving outputs
+2026-05-11 17:06:13 - root - INFO -  Logger test complete

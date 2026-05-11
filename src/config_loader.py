@@ -226,7 +226,7 @@ def _build_config(raw: dict) -> AppConfig:
 
     logging = LoggingConfig(
         Log_file = _resolve_path(raw["logging"]["log_file"]),
-        level    = raw["logging"]["level"].upper(),
+        level    = raw["logging"]["level"].upper(),    
     ),
 
     mlflow = MLflowConfig(
