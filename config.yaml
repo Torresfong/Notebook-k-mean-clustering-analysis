@@ -1,16 +1,96 @@
+# Configuration file for all data value that control pipeline live here 
+
 data:
-  filepath:"data//raw//online_retail_II.csv"
+  filepath: "data\\raw data\\online_retail_II.csv"
   encoding: "ISO-8859-1"
+  date_column: "InvoiceDate"
+  date_format: "%d/%m/%Y %H:%M"        # DD/MM/YYYY HH:MM — must match your CSV
+  customer_id_column: "Customer ID"
+  invoice_column: "Invoice"
+  quantity_column: "Quantity"
+  price_column: "Price"
+
   required_columns:
-    - "CustomerID"
-    -"InvoiceNo"
-    -"Quantity"
-    -"UnitPrice"
-    -"InvoiceDate"
+    - "Customer ID"
+    - "Invoice"
+    - "Quantity"
+    - "Price"
+    - "InvoiceDate"
+    - "Country"
+  
+  invalid_invoice_prefixes:  # invoice prefixes to exclude from analysis 
+    - "C"
+    - "A"
+
+  invalid_stockcodes:   # Stockcodes taht are not real products 
+    - "POST"
+    - "DOT"
+    - "C2"
+    - "DCGS"
+    - "S"
+    - "M"
+    - "m"
+    - "D"
 
 features:
   rfm_columns:
-    -"recency"
-    -"frequency"
+    -"Recency"
+    -"Frequency"
     -"Monetary"
   log_transform: true  # apply np.log1p to reduce skew 
+
+  aggregation:
+    monetary_source: "Total_Sales"
+    frequency_source: "Invoice"
+    date_source: "InvoiceDate"
+
+  recency_offset_days: 1
+
+  filter_positive_sales: true # filter out customers with zero or negative total sales
+
+outliers: # outlier detection and handling settings for two stages segmentation decision.
+  method: "IQR"
+  iqr_multiplier: 1.5
+
+  remove_outlier_features:
+    - "Monetary"                        # extreme spenders skew centroid heavily
+    - "Frequency"                       # wholesale/corporate buyers
+
+  keep_outlier_features:
+    - "Recency"
+
+  manual_labels:
+    monetary_only:            -1        # high spend, normal frequency  
+    frequency_only:           -2        # high frequency, normal spend  
+    monetary_and_frequency:   -3        # extreme on both               
+
+model:   # we use K-mean clustering for segmentation, so this control all hyperparameter
+  n_clusters: 3
+  random_state: 42
+  n_init : 10
+  max_iter: 1000
+  algorithm: "lloyd"
+
+  k_search_min: 2
+  k_search_max: 12
+
+cluster_labels:
+    # KMeans clusters (non-outlier customers)
+  0: "New Customer"                     
+  1: "Key Customer"                     
+  2: "Dormant"                          
+
+  # Manual outlier labels
+  -1: "VIP"                             
+  -2: "High Frequency"                  
+  -3: "Champion"                        
+
+logging:
+  log_file: "logs/pipeline.log"
+  level: "INFO"
+
+mlflow:
+  experiment_name: "customer-segmentation-kmeans"
+  tracking_uri: "mlruns" # swap for remote URI in production
+  run_name: "kmeans-rfm-k3" 
+  log_artifacts: true
