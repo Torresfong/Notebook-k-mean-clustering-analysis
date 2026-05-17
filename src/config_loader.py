@@ -21,7 +21,9 @@ class DataConfig:
     customer_id_column:         str           
     invoice_column:             str           
     quantity_column:            str           
-    price_column:               str           
+    price_column:               str 
+    stock_column:               str   
+    sales_column:               str       
     required_columns:           List[str]
     invalid_invoice_prefixes:   List[str]     # invoice prefixes to exclude (C, A)
     invalid_stockcodes:         List[str]     # non-product stockcodes to exclude
@@ -188,6 +190,8 @@ def _build_config(raw: dict) -> AppConfig:
         invoice_column           = raw["data"]["invoice_column"],
         quantity_column          = raw["data"]["quantity_column"],
         price_column             = raw["data"]["price_column"],
+        sales_column             = raw["data"]["sales_column"],          
+        stock_column             = raw["data"]["stock_column"],
         required_columns         = raw["data"]["required_columns"],
         invalid_invoice_prefixes = raw["data"]["invalid_invoice_prefixes"],
         invalid_stockcodes       = raw["data"]["invalid_stockcodes"],

@@ -2,13 +2,15 @@
 
 data:
   filepath: "data\\raw data\\online_retail_II.csv"
-  encoding: "ISO-8859-1"
+  encoding: "utf-8-sig"
   date_column: "InvoiceDate"
   date_format: "%d/%m/%Y %H:%M"        # DD/MM/YYYY HH:MM — must match your CSV
   customer_id_column: "Customer ID"
   invoice_column: "Invoice"
+  stock_column : "StockCode"
   quantity_column: "Quantity"
   price_column: "Price"
+  sales_column: "Sales"
 
   required_columns:
     - "Customer ID"
@@ -34,15 +36,10 @@ data:
 
 features:
   rfm_columns:
-    -"Recency"
-    -"Frequency"
-    -"Monetary"
+    - "Recency"
+    - "Frequency"
+    - "Monetary"
   log_transform: true  # apply np.log1p to reduce skew 
-
-  aggregation:
-    monetary_source: "Total_Sales"
-    frequency_source: "Invoice"
-    date_source: "InvoiceDate"
 
   recency_offset_days: 1
 

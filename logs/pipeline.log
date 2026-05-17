@@ -12,3 +12,470 @@
 2026-05-11 17:06:13 - root - INFO -  STEP 2/3: Training model
 2026-05-11 17:06:13 - root - INFO -  STEP 3/3: Saving outputs
 2026-05-11 17:06:13 - root - INFO -  Logger test complete
+2026-05-17 12:05:18 - src.logger - INFO - Logger initialised
+2026-05-17 12:05:18 - src.logger - INFO -   Level    : INFO
+2026-05-17 12:05:18 - src.logger - INFO -   Log file : C:\Desktop\Online retail UnsML k-mean analysis\logs/pipeline.log
+2026-05-17 12:05:18 - src.logger - INFO -   Terminal : colour enabled
+2026-05-17 12:05:18 - src.logger - INFO -   Rotation : 5MB × 3 backups
+2026-05-17 12:05:18 - src.logger - INFO - ============================================================
+2026-05-17 12:05:18 - root - INFO - Logger test started
+2026-05-17 12:05:18 - root - INFO - INFO — normal pipeline progress
+2026-05-17 12:05:18 - root - WARNING - WARNING — something unexpected
+2026-05-17 12:05:18 - root - ERROR - ERROR — something broke
+2026-05-17 12:05:18 - root - INFO -  STEP 1/3: Loading data
+2026-05-17 12:05:18 - root - INFO -  STEP 2/3: Training model
+2026-05-17 12:05:18 - root - INFO -  STEP 3/3: Saving outputs
+2026-05-17 12:05:18 - root - INFO -  Logger test complete
+2026-05-17 12:05:18 - root - INFO -  STEP 1/5: loading data
+2026-05-17 12:05:18 - src.data_loader - INFO - Data ingestion start
+2026-05-17 12:05:18 - src.data_loader - INFO - Source: C:\Desktop\Online retail UnsML k-mean analysis\data\raw data\online_retail_II.csv
+2026-05-17 12:05:18 - src.data_loader - INFO - Encoding : ISO-8859-1
+2026-05-17 12:05:19 - src.data_loader - INFO - Data validation
+2026-05-17 12:05:19 - root - ERROR - Data loading failed:Missing required columns: ['Invoice']
+2026-05-17 12:07:18 - src.logger - INFO - Logger initialised
+2026-05-17 12:07:18 - src.logger - INFO -   Level    : INFO
+2026-05-17 12:07:18 - src.logger - INFO -   Log file : C:\Desktop\Online retail UnsML k-mean analysis\logs/pipeline.log
+2026-05-17 12:07:18 - src.logger - INFO -   Terminal : colour enabled
+2026-05-17 12:07:18 - src.logger - INFO -   Rotation : 5MB × 3 backups
+2026-05-17 12:07:18 - src.logger - INFO - ============================================================
+2026-05-17 12:07:18 - root - INFO - Logger test started
+2026-05-17 12:07:18 - root - INFO - INFO — normal pipeline progress
+2026-05-17 12:07:18 - root - WARNING - WARNING — something unexpected
+2026-05-17 12:07:18 - root - ERROR - ERROR — something broke
+2026-05-17 12:07:18 - root - INFO -  STEP 1/3: Loading data
+2026-05-17 12:07:18 - root - INFO -  STEP 2/3: Training model
+2026-05-17 12:07:18 - root - INFO -  STEP 3/3: Saving outputs
+2026-05-17 12:07:18 - root - INFO -  Logger test complete
+2026-05-17 12:07:18 - root - INFO -  STEP 1/5: loading data
+2026-05-17 12:07:18 - src.data_loader - INFO - Data ingestion start
+2026-05-17 12:07:18 - src.data_loader - INFO - Source: C:\Desktop\Online retail UnsML k-mean analysis\data\raw data\online_retail_II.csv
+2026-05-17 12:07:18 - src.data_loader - INFO - Encoding : ISO-8859-1
+2026-05-17 12:07:19 - src.data_loader - INFO - Data validation
+2026-05-17 12:07:19 - root - ERROR - Data loading failed:Missing required columns: ['Invoice']
+2026-05-17 12:41:51 - src.logger - INFO - Logger initialised
+2026-05-17 12:41:51 - src.logger - INFO -   Level    : INFO
+2026-05-17 12:41:51 - src.logger - INFO -   Log file : C:\Desktop\Online retail UnsML k-mean analysis\logs/pipeline.log
+2026-05-17 12:41:51 - src.logger - INFO -   Terminal : colour enabled
+2026-05-17 12:41:51 - src.logger - INFO -   Rotation : 5MB × 3 backups
+2026-05-17 12:41:51 - src.logger - INFO - ============================================================
+2026-05-17 12:41:51 - root - INFO - Logger test started
+2026-05-17 12:41:51 - root - INFO - INFO — normal pipeline progress
+2026-05-17 12:41:51 - root - WARNING - WARNING — something unexpected
+2026-05-17 12:41:51 - root - ERROR - ERROR — something broke
+2026-05-17 12:41:51 - root - INFO -  STEP 1/3: Loading data
+2026-05-17 12:41:51 - root - INFO -  STEP 2/3: Training model
+2026-05-17 12:41:51 - root - INFO -  STEP 3/3: Saving outputs
+2026-05-17 12:41:51 - root - INFO -  Logger test complete
+2026-05-17 12:41:51 - root - INFO -  STEP 1/5: loading data
+2026-05-17 12:41:51 - src.data_loader - INFO - Data ingestion start
+2026-05-17 12:41:51 - src.data_loader - INFO - Source: C:\Desktop\Online retail UnsML k-mean analysis\data\raw data\online_retail_II.csv
+2026-05-17 12:41:51 - src.data_loader - INFO - Encoding : utf-8-sig
+2026-05-17 12:41:52 - src.data_loader - INFO - Data validation
+2026-05-17 12:41:52 - src.data_loader - INFO - Parsing InvoiceDate with format %d/%m/%Y %H:%M
+2026-05-17 12:41:52 - src.data_loader - INFO - After date parsing: 541910 rows remain (0 dropped)
+2026-05-17 12:41:52 - src.data_loader - INFO - Filtering invoice prefixes: ['C', 'A']
+2026-05-17 12:41:52 - src.data_loader - INFO - Removed 9291 rows with invalid invoice prefixes 
+2026-05-17 12:41:52 - src.data_loader - INFO -  Filtering invalid stockcode; ['POST', 'DOT', 'C2', 'DCGS', 'S', 'M', 'm', 'D']
+2026-05-17 12:41:52 - src.data_loader - INFO - Removed 2312 rows with invalid stockcodes
+2026-05-17 12:41:52 - src.data_loader - INFO - removing null Customer ID
+2026-05-17 12:41:52 - src.data_loader - INFO -  Removed 133921 rows with null Customer ID
+2026-05-17 12:41:52 - src.data_loader - INFO -  Remove non positive Quantity 
+2026-05-17 12:41:52 - src.data_loader - INFO - Removed 0 rows with Quantity <= 0 
+2026-05-17 12:41:52 - src.data_loader - INFO -  Filter non positive Price
+2026-05-17 12:41:52 - src.data_loader - INFO - Removed 34 rows with Price <= 0 
+2026-05-17 12:41:52 - src.data_loader - INFO - Remove duplicate rows
+2026-05-17 12:41:53 - src.data_loader - INFO - Removed 5187 exact duplicate rows
+2026-05-17 12:41:53 - src.data_loader - INFO -  standardise Customer ID format
+2026-05-17 12:41:53 - src.data_loader - INFO - Customer ID standardised to clean string format
+2026-05-17 12:41:53 - src.data_loader - INFO - Computing Sales = Quantity × Price...
+2026-05-17 12:41:53 - src.data_loader - INFO - Sales column created — 
+2026-05-17 12:41:53 - src.data_loader - INFO - Sales guard passed — all Sales values are positive
+2026-05-17 12:41:53 - src.data_loader - INFO - Data loading complete
+2026-05-17 12:41:53 - root - INFO - Running post-load sanity check
+2026-05-17 12:41:53 - root - INFO -   Shape            : (391165, 9)
+2026-05-17 12:41:53 - root - INFO -   Columns          : ['Invoice', 'StockCode', 'Description', 'Quantity', 'InvoiceDate', 'Price', 'Customer ID', 'Country', 'Sales']
+2026-05-17 12:41:53 - root - INFO -   Dtypes           :
+Invoice                   str
+StockCode                 str
+Description               str
+Quantity                int64
+InvoiceDate    datetime64[us]
+Price                 float64
+Customer ID               str
+Country                   str
+Sales                 float64
+2026-05-17 12:41:53 - root - INFO -   Null counts      :
+Invoice        0
+StockCode      0
+Description    0
+Quantity       0
+InvoiceDate    0
+Price          0
+Customer ID    0
+Country        0
+Sales          0
+2026-05-17 12:41:53 - root - INFO -   Unique customers : 4335
+2026-05-17 12:41:53 - root - INFO -   Date range       : 2010-12-01 → 2011-12-09
+2026-05-17 13:27:43 - src.logger - INFO - Logger initialised
+2026-05-17 13:27:43 - src.logger - INFO -   Level    : INFO
+2026-05-17 13:27:43 - src.logger - INFO -   Log file : C:\Desktop\Online retail UnsML k-mean analysis\logs/pipeline.log
+2026-05-17 13:27:43 - src.logger - INFO -   Terminal : colour enabled
+2026-05-17 13:27:43 - src.logger - INFO -   Rotation : 5MB × 3 backups
+2026-05-17 13:27:43 - src.logger - INFO - ============================================================
+2026-05-17 13:27:43 - root - INFO - Logger test started
+2026-05-17 13:27:43 - root - INFO - INFO — normal pipeline progress
+2026-05-17 13:27:43 - root - WARNING - WARNING — something unexpected
+2026-05-17 13:27:43 - root - ERROR - ERROR — something broke
+2026-05-17 13:27:43 - root - INFO -  STEP 1/3: Loading data
+2026-05-17 13:27:43 - root - INFO -  STEP 2/3: Training model
+2026-05-17 13:27:43 - root - INFO -  STEP 3/3: Saving outputs
+2026-05-17 13:27:43 - root - INFO -  Logger test complete
+2026-05-17 13:27:43 - root - INFO -  STEP 1/5: loading data
+2026-05-17 13:27:43 - src.data_loader - INFO - Data ingestion start
+2026-05-17 13:27:43 - src.data_loader - INFO - Source: C:\Desktop\Online retail UnsML k-mean analysis\data\raw data\online_retail_II.csv
+2026-05-17 13:27:43 - src.data_loader - INFO - Encoding : utf-8-sig
+2026-05-17 13:27:43 - src.data_loader - INFO - Data validation
+2026-05-17 13:27:43 - src.data_loader - INFO - Parsing InvoiceDate with format %d/%m/%Y %H:%M
+2026-05-17 13:27:44 - src.data_loader - INFO - After date parsing: 541910 rows remain (0 dropped)
+2026-05-17 13:27:44 - src.data_loader - INFO - Filtering invoice prefixes: ['C', 'A']
+2026-05-17 13:27:44 - src.data_loader - INFO - Removed 9291 rows with invalid invoice prefixes 
+2026-05-17 13:27:44 - src.data_loader - INFO -  Filtering invalid stockcode; ['POST', 'DOT', 'C2', 'DCGS', 'S', 'M', 'm', 'D']
+2026-05-17 13:27:44 - src.data_loader - INFO - Removed 2312 rows with invalid stockcodes
+2026-05-17 13:27:44 - src.data_loader - INFO - removing null Customer ID
+2026-05-17 13:27:44 - src.data_loader - INFO -  Removed 133921 rows with null Customer ID
+2026-05-17 13:27:44 - src.data_loader - INFO -  Remove non positive Quantity 
+2026-05-17 13:27:44 - src.data_loader - INFO - Removed 0 rows with Quantity <= 0 
+2026-05-17 13:27:44 - src.data_loader - INFO -  Filter non positive Price
+2026-05-17 13:27:44 - src.data_loader - INFO - Removed 34 rows with Price <= 0 
+2026-05-17 13:27:44 - src.data_loader - INFO - Remove duplicate rows
+2026-05-17 13:27:44 - src.data_loader - INFO - Removed 5187 exact duplicate rows
+2026-05-17 13:27:44 - src.data_loader - INFO -  standardise Customer ID format
+2026-05-17 13:27:44 - src.data_loader - INFO - Customer ID standardised to clean string format
+2026-05-17 13:27:44 - src.data_loader - INFO - Computing Sales = Quantity × Price...
+2026-05-17 13:27:44 - src.data_loader - INFO - Sales column created — 
+2026-05-17 13:27:44 - src.data_loader - INFO - Sales guard passed — all Sales values are positive
+2026-05-17 13:27:44 - src.data_loader - INFO - Data loading complete
+2026-05-17 13:27:44 - root - INFO - Running post-load sanity check
+2026-05-17 13:27:44 - root - INFO -   Shape            : (391165, 9)
+2026-05-17 13:27:44 - root - INFO -   Columns          : ['Invoice', 'StockCode', 'Description', 'Quantity', 'InvoiceDate', 'Price', 'Customer ID', 'Country', 'Sales']
+2026-05-17 13:27:44 - root - INFO -   Dtypes           :
+Invoice                   str
+StockCode                 str
+Description               str
+Quantity                int64
+InvoiceDate    datetime64[us]
+Price                 float64
+Customer ID               str
+Country                   str
+Sales                 float64
+2026-05-17 13:27:44 - root - INFO -   Null counts      :
+Invoice        0
+StockCode      0
+Description    0
+Quantity       0
+InvoiceDate    0
+Price          0
+Customer ID    0
+Country        0
+Sales          0
+2026-05-17 13:27:44 - root - INFO -   Unique customers : 4335
+2026-05-17 13:27:44 - root - INFO -   Date range       : 2010-12-01 → 2011-12-09
+2026-05-17 16:39:27 - src.logger - INFO - Logger initialised
+2026-05-17 16:39:27 - src.logger - INFO -   Level    : INFO
+2026-05-17 16:39:27 - src.logger - INFO -   Log file : C:\Desktop\Online retail UnsML k-mean analysis\logs/pipeline.log
+2026-05-17 16:39:27 - src.logger - INFO -   Terminal : colour enabled
+2026-05-17 16:39:27 - src.logger - INFO -   Rotation : 5MB × 3 backups
+2026-05-17 16:39:27 - src.logger - INFO - ============================================================
+2026-05-17 16:39:27 - root - INFO - Logger test started
+2026-05-17 16:39:27 - root - INFO - INFO — normal pipeline progress
+2026-05-17 16:39:27 - root - WARNING - WARNING — something unexpected
+2026-05-17 16:39:27 - root - ERROR - ERROR — something broke
+2026-05-17 16:39:27 - root - INFO -  STEP 1/3: Loading data
+2026-05-17 16:39:27 - root - INFO -  STEP 2/3: Training model
+2026-05-17 16:39:27 - root - INFO -  STEP 3/3: Saving outputs
+2026-05-17 16:39:27 - root - INFO -  Logger test complete
+2026-05-17 16:39:27 - root - INFO -  STEP 1/5: loading data
+2026-05-17 16:39:27 - src.data_loader - INFO - Data ingestion start
+2026-05-17 16:39:27 - src.data_loader - INFO - Source: C:\Desktop\Online retail UnsML k-mean analysis\data\raw data\online_retail_II.csv
+2026-05-17 16:39:27 - src.data_loader - INFO - Encoding : utf-8-sig
+2026-05-17 16:39:28 - src.data_loader - INFO - Data validation
+2026-05-17 16:39:28 - src.data_loader - INFO - Parsing InvoiceDate with format %d/%m/%Y %H:%M
+2026-05-17 16:39:28 - src.data_loader - INFO - After date parsing: 541910 rows remain (0 dropped)
+2026-05-17 16:39:28 - src.data_loader - INFO - Filtering invoice prefixes: ['C', 'A']
+2026-05-17 16:39:28 - src.data_loader - INFO - Removed 9291 rows with invalid invoice prefixes 
+2026-05-17 16:39:28 - src.data_loader - INFO -  Filtering invalid stockcode; ['POST', 'DOT', 'C2', 'DCGS', 'S', 'M', 'm', 'D']
+2026-05-17 16:39:28 - src.data_loader - INFO - Removed 2312 rows with invalid stockcodes
+2026-05-17 16:39:28 - src.data_loader - INFO - removing null Customer ID
+2026-05-17 16:39:28 - src.data_loader - INFO -  Removed 133921 rows with null Customer ID
+2026-05-17 16:39:28 - src.data_loader - INFO -  Remove non positive Quantity 
+2026-05-17 16:39:28 - src.data_loader - INFO - Removed 0 rows with Quantity <= 0 
+2026-05-17 16:39:28 - src.data_loader - INFO -  Filter non positive Price
+2026-05-17 16:39:28 - src.data_loader - INFO - Removed 34 rows with Price <= 0 
+2026-05-17 16:39:28 - src.data_loader - INFO - Remove duplicate rows
+2026-05-17 16:39:28 - src.data_loader - INFO - Removed 5187 exact duplicate rows
+2026-05-17 16:39:28 - src.data_loader - INFO -  standardise Customer ID format
+2026-05-17 16:39:29 - src.data_loader - INFO - Customer ID standardised to clean string format
+2026-05-17 16:39:29 - src.data_loader - INFO - Computing Sales = Quantity × Price...
+2026-05-17 16:39:29 - src.data_loader - INFO - Sales column created — 
+2026-05-17 16:39:29 - src.data_loader - INFO - Sales guard passed — all Sales values are positive
+2026-05-17 16:39:29 - src.data_loader - INFO - Data loading complete
+2026-05-17 16:39:29 - root - INFO - Running post-load sanity check
+2026-05-17 16:39:29 - root - INFO -   Shape            : (391165, 9)
+2026-05-17 16:39:29 - root - INFO -   Columns          : ['Invoice', 'StockCode', 'Description', 'Quantity', 'InvoiceDate', 'Price', 'Customer ID', 'Country', 'Sales']
+2026-05-17 16:39:29 - root - INFO -   Dtypes           :
+Invoice                   str
+StockCode                 str
+Description               str
+Quantity                int64
+InvoiceDate    datetime64[us]
+Price                 float64
+Customer ID               str
+Country                   str
+Sales                 float64
+2026-05-17 16:39:29 - root - INFO -   Null counts      :
+Invoice        0
+StockCode      0
+Description    0
+Quantity       0
+InvoiceDate    0
+Price          0
+Customer ID    0
+Country        0
+Sales          0
+2026-05-17 16:39:29 - root - INFO -   Unique customers : 4335
+2026-05-17 16:39:29 - root - INFO -   Date range       : 2010-12-01 → 2011-12-09
+2026-05-17 16:39:29 - root - INFO -  STEP 2/5: Feature engineering
+2026-05-17 16:39:29 - src.feature_engineering - INFO - Featutes engieering started
+2026-05-17 16:39:29 - src.feature_engineering - INFO -  All values are positive
+2026-05-17 16:39:29 - src.feature_engineering - INFO - Computing snapshot date
+2026-05-17 16:39:29 - src.feature_engineering - INFO - Aggregating RFM features per customer
+2026-05-17 16:39:29 - src.feature_engineering - INFO - RFM table shape: 4335 customers x 4 columns
+2026-05-17 16:39:29 - src.feature_engineering - INFO - aggregation validation
+2026-05-17 16:39:29 - src.feature_engineering - INFO - Post-aggregation validation passed
+2026-05-17 16:39:29 - src.feature_engineering - INFO - Pre-transform RFM
+2026-05-17 16:39:29 - src.feature_engineering - INFO -   Recency   — min: 1.0 days | max: 374.0 days | mean: 92.7 days
+2026-05-17 16:39:29 - src.feature_engineering - INFO -   Frequency — min: 1 orders | max: 206 orders | mean: 4.2 orders
+2026-05-17 16:39:29 - src.feature_engineering - INFO -   Monetary  — min: 3.75 | max: 279138.02 | mean: 2015.55
+2026-05-17 16:39:29 - src.feature_engineering - INFO - Applying log1p transformation to: ['Recency', 'Frequency', 'Monetary']
+2026-05-17 16:39:29 - src.feature_engineering - INFO - Log1p transfromation applied
+2026-05-17 16:39:29 - src.feature_engineering - INFO -   Recency   — min: 0.693 | max: 5.927 | mean: 3.832
+2026-05-17 16:39:29 - src.feature_engineering - INFO -   Frequency — min: 0.693 | max: 5.333 | mean: 1.342
+2026-05-17 16:39:29 - src.feature_engineering - INFO -   Monetary  — min: 1.558 | max: 12.539 | mean: 6.575
+2026-05-17 16:39:29 - src.feature_engineering - INFO - Post transformation validation
+2026-05-17 16:39:29 - src.feature_engineering - INFO - log transform validation done 
+2026-05-17 16:39:29 - src.feature_engineering - INFO - Feature engineering complete
+2026-05-17 16:39:29 - src.feature_engineering - INFO -   Output shape  : 4335 customers × 4 columns
+2026-05-17 16:39:29 - src.feature_engineering - INFO -   RFM columns   : ['Recency', 'Frequency', 'Monetary']
+2026-05-17 16:39:29 - src.feature_engineering - INFO -   Log transform : True
+2026-05-17 16:39:29 - src.feature_engineering - INFO -   Snapshot date : 2011-12-10
+2026-05-17 16:39:29 - src.feature_engineering - INFO -   Sample (first 3 rows):
+2026-05-17 16:39:29 - src.feature_engineering - INFO -     Customer ID: 12346 | Recency: 5.790 | Frequency: 0.693 | Monetary: 11.254
+2026-05-17 16:39:29 - src.feature_engineering - INFO -     Customer ID: 12347 | Recency: 1.099 | Frequency: 2.079 | Monetary: 8.369
+2026-05-17 16:39:29 - src.feature_engineering - INFO -     Customer ID: 12348 | Recency: 4.331 | Frequency: 1.609 | Monetary: 7.271
+2026-05-17 23:26:18 - src.logger - INFO - Logger initialised
+2026-05-17 23:26:18 - src.logger - INFO -   Level    : INFO
+2026-05-17 23:26:18 - src.logger - INFO -   Log file : C:\Desktop\Online retail UnsML k-mean analysis\logs/pipeline.log
+2026-05-17 23:26:18 - src.logger - INFO -   Terminal : colour enabled
+2026-05-17 23:26:18 - src.logger - INFO -   Rotation : 5MB × 3 backups
+2026-05-17 23:26:18 - src.logger - INFO - ============================================================
+2026-05-17 23:26:18 - root - INFO - Logger test started
+2026-05-17 23:26:18 - root - INFO - INFO — normal pipeline progress
+2026-05-17 23:26:18 - root - WARNING - WARNING — something unexpected
+2026-05-17 23:26:18 - root - ERROR - ERROR — something broke
+2026-05-17 23:26:18 - root - INFO -  STEP 1/3: Loading data
+2026-05-17 23:26:18 - root - INFO -  STEP 2/3: Training model
+2026-05-17 23:26:18 - root - INFO -  STEP 3/3: Saving outputs
+2026-05-17 23:26:18 - root - INFO -  Logger test complete
+2026-05-17 23:26:18 - root - INFO -  STEP 1/5: loading data
+2026-05-17 23:26:18 - src.data_loader - INFO - Data ingestion start
+2026-05-17 23:26:18 - src.data_loader - INFO - Source: C:\Desktop\Online retail UnsML k-mean analysis\data\raw data\online_retail_II.csv
+2026-05-17 23:26:18 - src.data_loader - INFO - Encoding : utf-8-sig
+2026-05-17 23:26:18 - src.data_loader - INFO - Data validation
+2026-05-17 23:26:18 - src.data_loader - INFO - Parsing InvoiceDate with format %d/%m/%Y %H:%M
+2026-05-17 23:26:18 - src.data_loader - INFO - After date parsing: 541910 rows remain (0 dropped)
+2026-05-17 23:26:18 - src.data_loader - INFO - Filtering invoice prefixes: ['C', 'A']
+2026-05-17 23:26:18 - src.data_loader - INFO - Removed 9291 rows with invalid invoice prefixes 
+2026-05-17 23:26:18 - src.data_loader - INFO -  Filtering invalid stockcode; ['POST', 'DOT', 'C2', 'DCGS', 'S', 'M', 'm', 'D']
+2026-05-17 23:26:18 - src.data_loader - INFO - Removed 2312 rows with invalid stockcodes
+2026-05-17 23:26:18 - src.data_loader - INFO - removing null Customer ID
+2026-05-17 23:26:18 - src.data_loader - INFO -  Removed 133921 rows with null Customer ID
+2026-05-17 23:26:18 - src.data_loader - INFO -  Remove non positive Quantity 
+2026-05-17 23:26:18 - src.data_loader - INFO - Removed 0 rows with Quantity <= 0 
+2026-05-17 23:26:18 - src.data_loader - INFO -  Filter non positive Price
+2026-05-17 23:26:18 - src.data_loader - INFO - Removed 34 rows with Price <= 0 
+2026-05-17 23:26:18 - src.data_loader - INFO - Remove duplicate rows
+2026-05-17 23:26:19 - src.data_loader - INFO - Removed 5187 exact duplicate rows
+2026-05-17 23:26:19 - src.data_loader - INFO -  standardise Customer ID format
+2026-05-17 23:26:19 - src.data_loader - INFO - Customer ID standardised to clean string format
+2026-05-17 23:26:19 - src.data_loader - INFO - Computing Sales = Quantity × Price...
+2026-05-17 23:26:19 - src.data_loader - INFO - Sales column created — 
+2026-05-17 23:26:19 - src.data_loader - INFO - Sales guard passed — all Sales values are positive
+2026-05-17 23:26:19 - src.data_loader - INFO - Data loading complete
+2026-05-17 23:26:19 - root - INFO - Running post-load sanity check
+2026-05-17 23:26:19 - root - INFO -   Shape            : (391165, 9)
+2026-05-17 23:26:19 - root - INFO -   Columns          : ['Invoice', 'StockCode', 'Description', 'Quantity', 'InvoiceDate', 'Price', 'Customer ID', 'Country', 'Sales']
+2026-05-17 23:26:19 - root - INFO -   Dtypes           :
+Invoice                   str
+StockCode                 str
+Description               str
+Quantity                int64
+InvoiceDate    datetime64[us]
+Price                 float64
+Customer ID               str
+Country                   str
+Sales                 float64
+2026-05-17 23:26:19 - root - INFO -   Null counts      :
+Invoice        0
+StockCode      0
+Description    0
+Quantity       0
+InvoiceDate    0
+Price          0
+Customer ID    0
+Country        0
+Sales          0
+2026-05-17 23:26:19 - root - INFO -   Unique customers : 4335
+2026-05-17 23:26:19 - root - INFO -   Date range       : 2010-12-01 → 2011-12-09
+2026-05-17 23:26:19 - root - INFO -  STEP 2/5: Feature engineering
+2026-05-17 23:26:19 - src.feature_engineering - INFO - Featutes engieering started
+2026-05-17 23:26:19 - src.feature_engineering - INFO -  All values are positive
+2026-05-17 23:26:19 - src.feature_engineering - INFO - Computing snapshot date
+2026-05-17 23:26:19 - src.feature_engineering - INFO - Aggregating RFM features per customer
+2026-05-17 23:26:19 - src.feature_engineering - INFO - RFM table shape: 4335 customers x 4 columns
+2026-05-17 23:26:19 - src.feature_engineering - INFO - aggregation validation
+2026-05-17 23:26:19 - src.feature_engineering - INFO - Post-aggregation validation passed
+2026-05-17 23:26:19 - src.feature_engineering - INFO - Pre-transform RFM
+2026-05-17 23:26:19 - src.feature_engineering - INFO -   Recency   — min: 1.0 days | max: 374.0 days | mean: 92.7 days
+2026-05-17 23:26:19 - src.feature_engineering - INFO -   Frequency — min: 1 orders | max: 206 orders | mean: 4.2 orders
+2026-05-17 23:26:19 - src.feature_engineering - INFO -   Monetary  — min: 3.75 | max: 279138.02 | mean: 2015.55
+2026-05-17 23:26:19 - src.feature_engineering - INFO - Applying log1p transformation to: ['Recency', 'Frequency', 'Monetary']
+2026-05-17 23:26:19 - src.feature_engineering - INFO - Log1p transfromation applied
+2026-05-17 23:26:19 - src.feature_engineering - INFO -   Recency   — min: 0.693 | max: 5.927 | mean: 3.832
+2026-05-17 23:26:19 - src.feature_engineering - INFO -   Frequency — min: 0.693 | max: 5.333 | mean: 1.342
+2026-05-17 23:26:19 - src.feature_engineering - INFO -   Monetary  — min: 1.558 | max: 12.539 | mean: 6.575
+2026-05-17 23:26:19 - src.feature_engineering - INFO - Post transformation validation
+2026-05-17 23:26:19 - src.feature_engineering - INFO - log transform validation done 
+2026-05-17 23:26:19 - src.feature_engineering - INFO - Computing IQR bounds on: ['Monetary', 'Frequency']
+2026-05-17 23:26:19 - src.feature_engineering - INFO -   method     : IQR (multiplier = 1.5)
+2026-05-17 23:26:19 - src.feature_engineering - INFO -   Skipping   : ['Recency'] (Recency outliers stay in clean set)
+2026-05-17 23:26:19 - src.feature_engineering - INFO -   Monetary     Q1=   5.721 | Q3=   7.398 | IQR=   1.677 | upper fence=     9.914
+2026-05-17 23:26:19 - src.feature_engineering - INFO -   Frequency    Q1=   0.693 | Q3=   1.792 | IQR=   1.099 | upper fence=     3.440
+2026-05-17 23:26:19 - src.feature_engineering - INFO - Detecting outliers...
+2026-05-17 23:26:19 - src.feature_engineering - INFO -   Monetary: 42 customers above upper fence
+2026-05-17 23:26:19 - src.feature_engineering - INFO -   Frequency: 42 customers above upper fence
+2026-05-17 23:26:19 - src.feature_engineering - INFO -   Total flagged : 62 / 4335 customers
+2026-05-17 23:26:19 - src.feature_engineering - INFO - Splitting RFM table into clean and outlier sets...
+2026-05-17 23:26:19 - src.feature_engineering - INFO -   Clean set   : 4273 customers → KMeans
+2026-05-17 23:26:19 - src.feature_engineering - INFO -   Outlier set : 62 customers → manual labels
+2026-05-17 23:26:19 - src.feature_engineering - INFO - Assigning manual labels to outlier customers...
+2026-05-17 23:26:19 - src.feature_engineering - INFO -   Outlier label distribution:
+2026-05-17 23:26:19 - root - ERROR - unexpected error during data loading: invalid literal for int() with base 10: '-3.0'
+2026-05-17 23:28:50 - src.logger - INFO - Logger initialised
+2026-05-17 23:28:50 - src.logger - INFO -   Level    : INFO
+2026-05-17 23:28:50 - src.logger - INFO -   Log file : C:\Desktop\Online retail UnsML k-mean analysis\logs/pipeline.log
+2026-05-17 23:28:50 - src.logger - INFO -   Terminal : colour enabled
+2026-05-17 23:28:50 - src.logger - INFO -   Rotation : 5MB × 3 backups
+2026-05-17 23:28:50 - src.logger - INFO - ============================================================
+2026-05-17 23:28:50 - root - INFO - Logger test started
+2026-05-17 23:28:50 - root - INFO - INFO — normal pipeline progress
+2026-05-17 23:28:50 - root - WARNING - WARNING — something unexpected
+2026-05-17 23:28:50 - root - ERROR - ERROR — something broke
+2026-05-17 23:28:50 - root - INFO -  STEP 1/3: Loading data
+2026-05-17 23:28:50 - root - INFO -  STEP 2/3: Training model
+2026-05-17 23:28:50 - root - INFO -  STEP 3/3: Saving outputs
+2026-05-17 23:28:50 - root - INFO -  Logger test complete
+2026-05-17 23:28:50 - root - INFO -  STEP 1/5: loading data
+2026-05-17 23:28:50 - src.data_loader - INFO - Data ingestion start
+2026-05-17 23:28:50 - src.data_loader - INFO - Source: C:\Desktop\Online retail UnsML k-mean analysis\data\raw data\online_retail_II.csv
+2026-05-17 23:28:50 - src.data_loader - INFO - Encoding : utf-8-sig
+2026-05-17 23:28:50 - src.data_loader - INFO - Data validation
+2026-05-17 23:28:50 - src.data_loader - INFO - Parsing InvoiceDate with format %d/%m/%Y %H:%M
+2026-05-17 23:28:50 - src.data_loader - INFO - After date parsing: 541910 rows remain (0 dropped)
+2026-05-17 23:28:50 - src.data_loader - INFO - Filtering invoice prefixes: ['C', 'A']
+2026-05-17 23:28:50 - src.data_loader - INFO - Removed 9291 rows with invalid invoice prefixes 
+2026-05-17 23:28:50 - src.data_loader - INFO -  Filtering invalid stockcode; ['POST', 'DOT', 'C2', 'DCGS', 'S', 'M', 'm', 'D']
+2026-05-17 23:28:51 - src.data_loader - INFO - Removed 2312 rows with invalid stockcodes
+2026-05-17 23:28:51 - src.data_loader - INFO - removing null Customer ID
+2026-05-17 23:28:51 - src.data_loader - INFO -  Removed 133921 rows with null Customer ID
+2026-05-17 23:28:51 - src.data_loader - INFO -  Remove non positive Quantity 
+2026-05-17 23:28:51 - src.data_loader - INFO - Removed 0 rows with Quantity <= 0 
+2026-05-17 23:28:51 - src.data_loader - INFO -  Filter non positive Price
+2026-05-17 23:28:51 - src.data_loader - INFO - Removed 34 rows with Price <= 0 
+2026-05-17 23:28:51 - src.data_loader - INFO - Remove duplicate rows
+2026-05-17 23:28:51 - src.data_loader - INFO - Removed 5187 exact duplicate rows
+2026-05-17 23:28:51 - src.data_loader - INFO -  standardise Customer ID format
+2026-05-17 23:28:51 - src.data_loader - INFO - Customer ID standardised to clean string format
+2026-05-17 23:28:51 - src.data_loader - INFO - Computing Sales = Quantity × Price...
+2026-05-17 23:28:51 - src.data_loader - INFO - Sales column created — 
+2026-05-17 23:28:51 - src.data_loader - INFO - Sales guard passed — all Sales values are positive
+2026-05-17 23:28:51 - src.data_loader - INFO - Data loading complete
+2026-05-17 23:28:51 - root - INFO - Running post-load sanity check
+2026-05-17 23:28:51 - root - INFO -   Shape            : (391165, 9)
+2026-05-17 23:28:51 - root - INFO -   Columns          : ['Invoice', 'StockCode', 'Description', 'Quantity', 'InvoiceDate', 'Price', 'Customer ID', 'Country', 'Sales']
+2026-05-17 23:28:51 - root - INFO -   Dtypes           :
+Invoice                   str
+StockCode                 str
+Description               str
+Quantity                int64
+InvoiceDate    datetime64[us]
+Price                 float64
+Customer ID               str
+Country                   str
+Sales                 float64
+2026-05-17 23:28:51 - root - INFO -   Null counts      :
+Invoice        0
+StockCode      0
+Description    0
+Quantity       0
+InvoiceDate    0
+Price          0
+Customer ID    0
+Country        0
+Sales          0
+2026-05-17 23:28:51 - root - INFO -   Unique customers : 4335
+2026-05-17 23:28:51 - root - INFO -   Date range       : 2010-12-01 → 2011-12-09
+2026-05-17 23:28:51 - root - INFO -  STEP 2/5: Feature engineering
+2026-05-17 23:28:51 - src.feature_engineering - INFO - Featutes engieering started
+2026-05-17 23:28:51 - src.feature_engineering - INFO -  All values are positive
+2026-05-17 23:28:51 - src.feature_engineering - INFO - Computing snapshot date
+2026-05-17 23:28:51 - src.feature_engineering - INFO - Aggregating RFM features per customer
+2026-05-17 23:28:51 - src.feature_engineering - INFO - RFM table shape: 4335 customers x 4 columns
+2026-05-17 23:28:51 - src.feature_engineering - INFO - aggregation validation
+2026-05-17 23:28:51 - src.feature_engineering - INFO - Post-aggregation validation passed
+2026-05-17 23:28:51 - src.feature_engineering - INFO - Pre-transform RFM
+2026-05-17 23:28:51 - src.feature_engineering - INFO -   Recency   — min: 1.0 days | max: 374.0 days | mean: 92.7 days
+2026-05-17 23:28:51 - src.feature_engineering - INFO -   Frequency — min: 1 orders | max: 206 orders | mean: 4.2 orders
+2026-05-17 23:28:51 - src.feature_engineering - INFO -   Monetary  — min: 3.75 | max: 279138.02 | mean: 2015.55
+2026-05-17 23:28:51 - src.feature_engineering - INFO - Applying log1p transformation to: ['Recency', 'Frequency', 'Monetary']
+2026-05-17 23:28:51 - src.feature_engineering - INFO - Log1p transfromation applied
+2026-05-17 23:28:51 - src.feature_engineering - INFO -   Recency   — min: 0.693 | max: 5.927 | mean: 3.832
+2026-05-17 23:28:51 - src.feature_engineering - INFO -   Frequency — min: 0.693 | max: 5.333 | mean: 1.342
+2026-05-17 23:28:51 - src.feature_engineering - INFO -   Monetary  — min: 1.558 | max: 12.539 | mean: 6.575
+2026-05-17 23:28:51 - src.feature_engineering - INFO - Post transformation validation
+2026-05-17 23:28:51 - src.feature_engineering - INFO - log transform validation done 
+2026-05-17 23:28:51 - src.feature_engineering - INFO - Computing IQR bounds on: ['Monetary', 'Frequency']
+2026-05-17 23:28:51 - src.feature_engineering - INFO -   method     : IQR (multiplier = 1.5)
+2026-05-17 23:28:51 - src.feature_engineering - INFO -   Skipping   : ['Recency'] (Recency outliers stay in clean set)
+2026-05-17 23:28:51 - src.feature_engineering - INFO -   Monetary     Q1=   5.721 | Q3=   7.398 | IQR=   1.677 | upper fence=     9.914
+2026-05-17 23:28:51 - src.feature_engineering - INFO -   Frequency    Q1=   0.693 | Q3=   1.792 | IQR=   1.099 | upper fence=     3.440
+2026-05-17 23:28:51 - src.feature_engineering - INFO - Detecting outliers...
+2026-05-17 23:28:51 - src.feature_engineering - INFO -   Monetary: 42 customers above upper fence
+2026-05-17 23:28:51 - src.feature_engineering - INFO -   Frequency: 42 customers above upper fence
+2026-05-17 23:28:51 - src.feature_engineering - INFO -   Total flagged : 62 / 4335 customers
+2026-05-17 23:28:51 - src.feature_engineering - INFO - Splitting RFM table into clean and outlier sets...
+2026-05-17 23:28:51 - src.feature_engineering - INFO -   Clean set   : 4273 customers → KMeans
+2026-05-17 23:28:51 - src.feature_engineering - INFO -   Outlier set : 62 customers → manual labels
+2026-05-17 23:28:51 - src.feature_engineering - INFO - Assigning manual labels to outlier customers...
+2026-05-17 23:28:51 - src.feature_engineering - INFO -   Outlier label distribution:
+2026-05-17 23:28:51 - src.feature_engineering - INFO -  Cluster_ID -3 : 22 customers
+2026-05-17 23:28:51 - src.feature_engineering - INFO -  Cluster_ID -2 : 20 customers
+2026-05-17 23:28:51 - src.feature_engineering - INFO -  Cluster_ID -1 : 20 customers
+2026-05-17 23:28:51 - src.feature_engineering - INFO - Feature engineering complete
+2026-05-17 23:28:51 - src.feature_engineering - INFO -   Output shape  : 4335 customers × 4 columns
+2026-05-17 23:28:51 - src.feature_engineering - INFO -   RFM columns   : ['Recency', 'Frequency', 'Monetary']
+2026-05-17 23:28:51 - src.feature_engineering - INFO -   Log transform : True
+2026-05-17 23:28:51 - src.feature_engineering - INFO -   Snapshot date : 2011-12-10
+2026-05-17 23:28:51 - src.feature_engineering - INFO -   Sample (first 3 rows):
+2026-05-17 23:28:51 - src.feature_engineering - INFO -     Customer ID: 12346 | Recency: 5.790 | Frequency: 0.693 | Monetary: 11.254
+2026-05-17 23:28:51 - src.feature_engineering - INFO -     Customer ID: 12347 | Recency: 1.099 | Frequency: 2.079 | Monetary: 8.369
+2026-05-17 23:28:51 - src.feature_engineering - INFO -     Customer ID: 12348 | Recency: 4.331 | Frequency: 1.609 | Monetary: 7.271
